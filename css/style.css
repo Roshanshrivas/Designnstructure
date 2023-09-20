@@ -2246,7 +2246,7 @@ a:focus {
 
 
 .footer .copyright {
-    padding: 30px 15px;
+    padding: 35px 15px;
 }
 
 .footer .copyright p {
@@ -2254,14 +2254,11 @@ a:focus {
     color: #ffffff;
 }
 
-.footer .copyright .col-md-6:last-child p {
-    text-align: right;
-}
-
 .footer .copyright p a {
     color: #1D8ECE;
     font-weight: 500;
     letter-spacing: 1px;
+    font-size: 14px;
 }
 
 .footer .copyright p a:hover {
