@@ -10,11 +10,15 @@ body {
 
 /* ------------------------------logo-company--------------------------------------------- */
 .logo-company{
-    border: 1px solid black;
-    width: 120px;
-    height: 110px; 
+    /* border: 1px solid black; */
+    width: 80px;
+    height: 90px;
+    /* height: 110px;  */
     /* padding: 40px; */
     
+}
+.logo-company img{
+    width: 120px;
 }
 
 
@@ -165,7 +169,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #1D8ECE;
+    background: grey;
     transition: .3s;
 }
 
@@ -184,7 +188,7 @@ a:focus {
 
 .nav-bar .navbar {
     height: 100%;
-    background: #030f27 !important;
+    background: #1D8ECE !important;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -197,7 +201,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #1D8ECE;
+    color: black;
     transition: none;
 }
 
