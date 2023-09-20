@@ -606,6 +606,8 @@ a:focus {
 /*******************************/
 /********** About CSS **********/
 /*******************************/
+
+
 .about {
     position: relative;
     width: 100%;
@@ -660,6 +662,7 @@ a:focus {
 /*******************************/
 /********** Fact CSS ***********/
 /*******************************/
+
 .fact {
     position: relative;
     width: 100%;
@@ -684,13 +687,13 @@ a:focus {
     margin: 0;
     font-size: 60px;
     line-height: 60px;
-    background-image: linear-gradient(#ffffff, #1D8ECE);
+    background-image: linear-gradient(#ffffff, #fff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .fact .fact-right .fact-icon [class^="flaticon-"]::before {
-    background-image: linear-gradient(#ffffff, #030f27);
+    background-image: linear-gradient(#ffffff, #fff);
 }
 
 .fact .fact-left,
@@ -712,23 +715,28 @@ a:focus {
 }
 
 .fact .fact-left {
-    color: #1D8ECE;
+    color: #fff;
     background: #030f27;
 }
 
 .fact .fact-right {
-    color: #030f27;
+    color: #fff;
     background: #1D8ECE;
 }
 
 .fact .fact-left h2 {
-    color: #1D8ECE;
+    color: #fff;
+}
+
+.fact-right .fact-text h2{
+    color: #fff;
 }
 
 
 /*******************************/
 /********* Service CSS *********/
 /*******************************/
+
 .service {
     position: relative;
     width: 100%;
