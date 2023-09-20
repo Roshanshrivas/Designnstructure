@@ -10,7 +10,7 @@ body {
     font-weight: 400;
 }
 
-/* ------------------------------logo-company--------------------------- */
+/* ---------------------------- logo-company --------------------------- */
 
 
 .logo-company{
@@ -410,6 +410,7 @@ a:focus {
 /******* Page Header CSS *******/
 /*******************************/
 
+
 .page-header {
     position: relative;
     margin-bottom: 45px;
@@ -495,6 +496,7 @@ a:focus {
 /*******************************/
 /******* Section Header ********/
 /*******************************/
+
 
 .section-header {
     position: relative;
@@ -617,6 +619,28 @@ a:focus {
 .feature .col-md-12:nth-child(2n) h3,
 .feature .col-md-12:nth-child(2n) p {
     color: #fff;
+}
+
+
+
+@media (max-width: 375px){
+
+    
+.feature .feature-item {
+    min-height: 250px;
+    padding: 5px;
+}
+
+
+.feature .feature-icon {
+    position: relative;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    
 }
 
 
@@ -748,6 +772,45 @@ a:focus {
 .fact-right .fact-text h2{
     color: #fff;
 }
+
+
+@media (max-width: 320px) {
+    
+
+.fact .col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+.fact .fact-icon {
+        position: relative;
+        margin: 10px 15px 5px 10px;
+        width: 40px;
+}
+
+
+.fact .fact-left,
+.fact .fact-right {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fact .fact-text h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+    
+    .fact .fact-text p {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+}
+
 
 
 /*******************************/
@@ -969,6 +1032,8 @@ a:focus {
 /*******************************/
 /*********** Team CSS **********/
 /*******************************/
+
+
 .team {
     position: relative;
     width: 100%;
