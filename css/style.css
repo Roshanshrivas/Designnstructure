@@ -506,9 +506,14 @@ a:focus {
 
 .section-header p {
     color: #1D8ECE;
-    font-size: 18px;
+    font-size: 55px;
     font-weight: 600;
     margin-bottom: 5px;
+}
+.sub-heading-our-team-page{
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .section-header h2 {
@@ -1127,6 +1132,12 @@ a:focus {
     background: #3f729b;
     left: 50px;
     transition: .3s .3s;
+}
+
+.team .Our-team-content{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
 }
 
 
