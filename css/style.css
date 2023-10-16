@@ -506,16 +506,10 @@ a:focus {
 
 .section-header p {
     color: #1D8ECE;
-    font-size: 55px;
+    font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
 }
-.sub-heading-our-team-page{
-    color: black;
-    font-size: 22px;
-    font-weight: 400;
-}
-
 .section-header h2 {
     margin: 0;
     position: relative;
@@ -910,6 +904,7 @@ a:focus {
 .service .service-item:hover a.btn {
     color: #ffffff;
 }
+.service
 
 
 /*******************************/
