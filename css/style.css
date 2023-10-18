@@ -422,7 +422,7 @@ a:focus {
 .page-header h2 {
     position: relative;
     color: #030f27;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
     padding-bottom: 5px;
@@ -1048,6 +1048,77 @@ a:focus {
     }
 
 } */
+
+
+/*******************************/
+/******* client-section ********/
+/*******************************/
+
+
+.client-section{
+    width: 100%;
+    height: 60vh;
+    /* background: #999; */
+    margin: 60px 0;
+    /* background: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)); */
+    padding-top: 3rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    /* background: white; */
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: 80px;
+    margin: 0 40px;
+  }
+
 
 
 
